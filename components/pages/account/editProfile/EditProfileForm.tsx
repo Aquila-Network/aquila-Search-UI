@@ -6,7 +6,7 @@ import finalPropsSelectorFactory from 'react-redux/es/connect/selectorFactory';
 import { AppState } from '../../../../store';
 
 import { Customer } from '../../../../store/slices/types/Customer';
-import classes from './EDitProfileForm.module.scss';
+import classes from './EditProfileForm.module.scss';
 
 interface EditProfileFormProps {
     customer: Customer;
